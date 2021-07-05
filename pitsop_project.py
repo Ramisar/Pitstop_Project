@@ -1,12 +1,14 @@
 import sys
-from matplotlib.cbook import index_of
-import matplotlib.pyplot as plt
-import numpy as np
 import time
 from random import random
+
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.cbook import index_of
 from pylab import *
 from simanneal import Annealer
 
+# tes
 
 laps = range(70)  # Creating Laps List, to use on graph as parameter.
 pitstop_time = 30  # PitStop time to change tyre compounds
